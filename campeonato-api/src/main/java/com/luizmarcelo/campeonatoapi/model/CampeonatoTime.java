@@ -20,12 +20,14 @@ public class CampeonatoTime {
     @JoinColumn(name = "campeonato_id")
     private Campeonato campeonato;
 
+    @Id
+    @Column(name = "ano")
+    private Integer ano;
+
     @Column(name = "posicao")
     private Integer posicao;
     @Column(name = "pontos")
     private Integer pontos;
-    @Column(name = "ano")
-    private Integer ano;
     @Column(name = "partidas_jogadas")
     private Integer partidasJogadas;
     @Column(name = "vitorias")

@@ -20,7 +20,4 @@ public class TimeCampeonatoDTO {
     private Integer golsMarcados;
     private Integer golsSofridos;
     private Integer saldoGols;
-
-
-
 }

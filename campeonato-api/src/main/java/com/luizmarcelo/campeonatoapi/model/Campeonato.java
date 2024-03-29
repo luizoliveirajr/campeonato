@@ -17,5 +17,7 @@ public class Campeonato {
 
     @Column(name = "nome")
     private String nome;
+    @Column(name = "ano")
+    private Integer ano;
 
 }

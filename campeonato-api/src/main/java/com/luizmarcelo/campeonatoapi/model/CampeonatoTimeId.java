@@ -15,4 +15,5 @@ import java.io.Serializable;
 public class CampeonatoTimeId implements Serializable {
     private Integer campeonato;
     private Integer time;
+    private Integer ano;
 }
