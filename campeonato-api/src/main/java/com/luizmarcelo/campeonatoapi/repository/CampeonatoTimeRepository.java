@@ -26,7 +26,8 @@ public interface CampeonatoTimeRepository extends JpaRepository<CampeonatoTime, 
             "ct.derrotas," +
             "ct.golsMarcados," +
             "ct.golsSofridos," +
-            "ct.saldoGols) " +
+            "ct.saldoGols," +
+            "t.id) " +
             "from campeonato_time ct " +
             "inner join time t on ct.time = t " +
             "where ct.ano = :ano " +

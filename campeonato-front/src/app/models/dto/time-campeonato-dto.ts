@@ -11,6 +11,8 @@ export class TimeCampeonatoDTO {
   golsSofridos: number;
   saldoGols:number;
 
+  idTime: number;
+
 
   constructor(nomeTime: string,
               urlFotoTime: string,
@@ -22,7 +24,8 @@ export class TimeCampeonatoDTO {
               derrotas: number,
               golsMarcados: number,
               golsSofridos: number,
-              saldoGols: number) {
+              saldoGols: number,
+              idTime: number) {
     this.nomeTime = nomeTime;
     this.urlFotoTime = urlFotoTime;
     this.pontos = pontos;
@@ -34,6 +37,7 @@ export class TimeCampeonatoDTO {
     this.golsMarcados = golsMarcados;
     this.golsSofridos = golsSofridos;
     this.saldoGols = saldoGols;
+    this.idTime = idTime;
   }
 
 
