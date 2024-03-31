@@ -1,1 +1,8 @@
-<p>time-detalhes works!</p>
+<div *ngIf="time" class="container-fluid d-flex flex-column bg-light border rounded-3 align-items-center mt-5 container-width">
+  <div class="d-flex flex-column align-items-center pt-3">
+    <img *ngIf="time.urlFoto" [src]="time.urlFoto" alt="{{time.nome}}" class="default-tamanho-foto img-thumbnail"/>
+  </div>
+  <div class="p-3 border-2">
+    <p class="lead">{{time.descricao}}</p>
+  </div>
+</div>

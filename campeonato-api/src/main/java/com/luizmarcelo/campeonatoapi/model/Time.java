@@ -17,7 +17,7 @@ public class Time {
 
     @Column(name = "nome")
     private String nome;
-    @Column(name = "descricao")
+    @Column(name = "descricao", columnDefinition = "TEXT")
     private String descricao;
     @Column(name = "url_foto")
     private String urlFoto;
