@@ -8,7 +8,7 @@ Projeto simples construído para exemplificar o consumo de uma API própria, uti
 - ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 - ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-
+- Banco de dados H2 (em memoria) populado a partir de um script.
 ## Funcionalidades
 
 - Backend:
@@ -31,3 +31,6 @@ Projeto simples construído para exemplificar o consumo de uma API própria, uti
    - Navegue até o diretório `frontend` do projeto.
    - Instale as dependências com `npm install`.
    - Inicie o servidor de desenvolvimento com `ng serve`.
+
+## Overview do projeto
+![Demonstracao](campenato.gif)
